@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS Login</title>
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="loginpage.css">
+</head>
+<body>
+     <!-- A container for the login form -->
+    <div class="container">
+        <!-- The login form with an id of "login-form" -->
+        <form id="login-form">
+            <h1>LMS Login</h1>
+            <!-- The email/username field with a label, an id of "email", a name of "email", and an empty error message paragraph -->
+            <div class="form-group">
+                <label for="email">Email/Username:</label>
+                <input type="text" id="email" name="email">
+                <p id="usernameErr"></p>
+            </div>
+            <!-- The password field with a label, an id of "password", a name of "password", and an empty error message paragraph -->
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <p id="passwordErr"></p>
+            </div>
+            <!-- A submit button for the form -->
+            <div class="form-group">
+                <button type="submit">Login</button>
+            </div>
+            <!-- A link to the forgot password page -->
+            <div class="form-group">
+                <a href="#">Forgot Password?</a>
+            </div>
+        </form>
+    </div>
+    <!-- A script tag to link to the external JavaScript file -->
+    <script src="loginpage.js"></script>
+</body>
+</html>
