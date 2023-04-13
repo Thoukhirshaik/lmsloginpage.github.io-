@@ -62,7 +62,7 @@ button {
 button:hover {
     background-color: #3071a9;
 }
-.error-message{
+.error-msg{
     color:red;
 }
 
