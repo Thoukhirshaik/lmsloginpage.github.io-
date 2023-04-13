@@ -14,19 +14,14 @@ form.addEventListener('submit',(event)=>{
     event.preventDefault();
     //check if the email field is empty or not
     if (emailEl.value === ""){
-        //if empty display an error message
         usernameErrorMsg.textContent = "Please Enter Your Email or Username";
     }else{
-        // if it is not empty display nothing
         usernameErrorMsg.textContent="";
     }
-    //check if password field is empty or not
     if (passwordEl.value === ""){
         //if it is empty display error message
         passwordErrorMsg.textContent ="Please Enter Your Password";
-
     }else{
-        //if it is not empty display nothing
         passwordErrorMsg.textContent ="";
     }
     //check if both email and password field is not empty
